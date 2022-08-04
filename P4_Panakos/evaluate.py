@@ -165,7 +165,7 @@ for freq in range(minFreq, maxFreq):
             val = int(math.ceil(sum(dic_freq_arr)/len(dic_freq_arr)))
 
 
-    for i in range( val ): # to obtain better result, use the average number of apperance
+    for i in range( val ): 
         counters.append(freq)
 
 EM_CM = EMFSD()
